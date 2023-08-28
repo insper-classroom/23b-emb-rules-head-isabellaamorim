@@ -1,7 +1,10 @@
 // foo.h
 
-int foo(int b) {
-  if (b > 2)
-    return 0;
-  return 1;
-}
+#ifndef FOO
+#define FOO
+
+int foo(int b);
+
+#endif
+
+
